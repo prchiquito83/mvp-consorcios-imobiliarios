@@ -1,5 +1,5 @@
 # IMPORTANTE!!! ----------------------------------------------------------
-> Detalhes, explicações e desenvolvimento esperados para as seções expostas neste README.md encontram-se no Notebook: MVP_Consorcios_Imobiliarios disponível no GitHub: https://github.com/prchiquito83/mvp-consorcios-imobiliarios
+> Detalhes, explicações e desenvolvimento esperados para as seções expostas neste README.md encontram-se no Notebook: MVP_Consorcios_Imobiliarios disponível no GitHub: [https://github.com/prchiquito83/mvp-consorcios-imobiliarios](https://github.com/prchiquito83/mvp-consorcios-imobiliarios/blob/main/MVP_Data%20Base_Consorcios_Imobiliarios.ipynb)
 
 # -----------------------------------------------------------------------------
 
