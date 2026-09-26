@@ -1,3 +1,8 @@
+# IMPORTANTE!!! ----------------------------------------------------------
+> Detalhes, explicações e desenvolvimento esperados para as seções expostas neste README.md encontram-se no Notebook: MVP_Consorcios_Imobiliarios disponível no GitHub: https://github.com/prchiquito83/mvp-consorcios-imobiliarios
+
+# -----------------------------------------------------------------------------
+
 # MVP - Banco de Dados para Análise de Risco Operacional em Consórcios Imobiliários
 
 **Aluno:** Paulo Roberto Chiquito  
@@ -7,7 +12,6 @@
 **Data-base dos dados:** julho de 2026  
 **Fonte:** https://www.bcb.gov.br/estabilidadefinanceira/consorciobd
 
----
 
 ## 1. Contexto de Negócios e Perguntas (Etapa 2 e 4.1)
 
@@ -121,7 +125,11 @@ Inclui todas as colunas originais tratadas, mais:
 - faixa_inadimplencia (string): Baixo, Moderado, Alto, Muito alto
 - faixa_prazo (string): Até 120, 121 a 180, 181 a 240, Acima de 240 meses
 
-> As tabelas podem ser visualizadas no Catalog Explorer do Databricks em workspace.mvp_consorcios. Recomenda-se a captura de screenshots do catálogo.
+> As tabelas podem ser visualizadas no Catalog Explorer do Databricks em workspace.mvp_consorcios.
+>
+> 
+> <img width="1352" height="600" alt="image" src="https://github.com/user-attachments/assets/11ae9bff-ea94-4e91-acc5-f28490cd3d43" />
+
 
 ---
 
@@ -158,7 +166,6 @@ O pipeline ETL foi organizado em um único notebook (MVP_Consorcios_Imobiliarios
 
 As tabelas foram persistidas no Databricks usando o formato Delta Lake no Unity Catalog (workspace.mvp_consorcios). O processo utilizou write.format(delta).mode(overwrite).saveAsTable() para cada camada.
 
-> Recomenda-se a captura de screenshots do Databricks evidenciando as tabelas persistidas no Catalog Explorer.
 
 > Script de referência: O notebook MVP_Consorcios_Imobiliarios está disponível no GitHub: https://github.com/prchiquito83/mvp-consorcios-imobiliarios
 
