@@ -12,6 +12,7 @@
 **Ambiente:** Databricks Free Edition  
 **Data-base dos dados:** julho de 2026  
 **Fonte:** https://www.bcb.gov.br/estabilidadefinanceira/consorciobd
+
 Arquivos baixados presentes na pasta 202607Consorcios.zip
 
 
